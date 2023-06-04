@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background: linear-gradient(45deg, var(--purple), var(--purple-light));*/
+    background: linear-gradient(90deg,  #06ee19 , #fbff00, #005ce6);
+    background-size: 400% 400%;
+    animation: anim 2.5s infinite ease-in-out;
+
+    
+}
+@keyframes anim{
+    0%{
+        background-position: 0 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}    
+    
+
+#menu-horizontal {list-style-type: none; padding: 0;  background:transparent; 
+    
+}
+#menu-horizontal li{
+    display: inline; 
+}
+
+#menu-horizontal li a{
+    display: inline;   color: rgb(0, 0, 0); margin-top: 10px; font-weight: bold; font-size: 20px; text-decoration:solid; padding: 20px; display: inline-block;  transition: background .6s; 
+}
+
+#menu-horizontal li a:hover{ color: rgb(43, 2, 56); background-color: rgb(241, 112, 7);
+
+}
+.section-5 {
+    padding: 0 10rem 0 10rem;
+}
+.section-5 h1{
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;  
+}
+form{
+    background-color: #ffffff;
+    padding: 2rem;
+    width: 3s0rem;
+    height: auto;
+   
+}
+form h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+.section-5 .container-form .map{
+    width: 100%;
+    flex: 1.45rem;
+    object-fit: cover;
+}
+.inputform{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 1rem;
+    margin-top: 1rem;
+    background: #6cac38;
+}
+.inputform input{
+    width: 100%;
+    padding: 0.3rem;
+    margin: 2px;
+    background: #1f1a1a;
+}
+.inputform span{
+    font-size: 1.5rem;
+    color: #1d1a1a;
+}
+form button{
+    margin-top: 2rem;
+    background-color: rgb(43, 255, 0);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+}
+form button:hover{
+    letter-spacing: 2px;
+    transition: 0.3s all;
+    border-radius: 30px;
+   
+   
+   
+}
